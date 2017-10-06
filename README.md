@@ -11,7 +11,7 @@ Installation Steps:
 
 1. Install Node. Path: https://nodejs.org/en/download/
 2. Install ATOM. Path : https://atom.io/
-3. Run below commands:
+3. Run below commands.
  3.1 apm config set strict-ssl null
  3.2 apm install api-workbench
  3.3 npm i -g raml2html
