@@ -1,0 +1,17 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"description": "Employees",
+	"properties": {
+		"employees": {
+			"type": "array",
+			"description": "Employee items list",
+			"items": {
+				"$ref": "Employee.json"
+			}
+		}
+	},
+	"required": [
+		"employees"
+	]
+}

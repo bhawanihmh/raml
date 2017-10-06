@@ -1,0 +1,19 @@
+#%RAML 1.0 DataType
+
+types:
+   AddressRAML: !include ../../address/raml/Address.raml
+
+type: object
+description: "Company details"
+properties:
+   id:
+    type: integer
+    description: Company id
+    example: 1
+   name:
+    type: string
+    description: Company name
+    example: "My Company"
+   address:
+    type: AddressRAML
+    description: Comapny Address

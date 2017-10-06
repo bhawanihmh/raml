@@ -1,0 +1,31 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"description": "Address information.",
+	"properties": {
+		"id": {
+			"type": "integer",
+			"description": "Address id."
+		},
+		"houseNumber": {
+			"type": "string",
+			"description": "House Number."
+		},
+		"streetAddress": {
+			"type": "string",
+			"description": "Street Address."
+		},
+		"city": {
+			"type": "string",
+			"description": "City."
+		},
+		"state": {
+			"type": "string",
+			"description": "State"
+		},
+		"zipCode": {
+			"type": "string",
+			"description": "Zip Code"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"description": "Employee information.",
+	"properties": {
+		"id": {
+			"type": "integer",
+			"description": "Address id."
+		},
+		"name": {
+			"type": "string",
+			"description": "Employee name."
+		},
+		"salary": {
+			"type": "integer",
+			"description": "Employee salary."
+		},
+		"addresses": {
+			"type": "array",
+			"description": "Address items list",
+			"items": {
+				"$ref": "Address.json"
+			}
+	}
+	"required": [
+		"name",
+		"salary",
+		"addresses"
+	]
+}

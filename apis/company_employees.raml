@@ -1,0 +1,10 @@
+#%RAML 1.0 DataType
+
+get:
+  description: Retrieves company's employees.
+  responses:
+    200:
+      body:
+        application/json:
+          type: Employees
+/{id}: !include employee_details.raml

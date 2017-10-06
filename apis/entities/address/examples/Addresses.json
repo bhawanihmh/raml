@@ -1,0 +1,19 @@
+{
+	"addresses" : [
+		{
+		 	id: 1,
+			houseNumber: 100,
+		  streetAddress: "MI Road",
+		  city: "Japiur",
+		  state: "Rajasthan",
+		  zipCode: 123123
+		}, {
+			id: 2,
+			houseNumber: 101,
+		  streetAddress: "MI Road",
+		  city: "Japiur",
+		  state: "Rajasthan",
+		  zipCode: 123123
+		}
+	]
+}

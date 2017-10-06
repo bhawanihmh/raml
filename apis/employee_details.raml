@@ -1,0 +1,11 @@
+#%RAML 1.0 DataType
+
+get:
+  description: Retrieves employee details.
+  responses:
+    200:
+      body:
+        application/json:
+          type: Employee
+
+/addresses: !include employee_addresses.raml

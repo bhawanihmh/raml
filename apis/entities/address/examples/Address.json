@@ -1,0 +1,8 @@
+{
+	id: 1,
+	houseNumber: "100",
+	streetAddress: "MI Road",
+	city: "Japiur",
+	state: "Rajasthan",
+	zipCode: "123123"
+}

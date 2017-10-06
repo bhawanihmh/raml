@@ -1,0 +1,30 @@
+#%RAML 1.0 DataType
+
+# RAML Schemas example
+# Entities for Company
+Company: !include company/raml/Company.raml
+AddressRAML: !include address/raml/Address.raml
+
+
+# JSON Schemas example
+
+# Entities for Employee
+Employee:
+  schema: !include employee/schemas/Employee.json
+  example: !include employee/examples/Employee.json
+Employees:
+  schema: !include employee/schemas/Employees.json
+  example: !include employee/examples/Employees.json
+
+# Entities for Address
+Address:
+  schema: !include address/schemas/Address.json
+  example: !include address/examples/Address.json
+Addresses:
+  schema: !include address/schemas/Addresses.json
+  example: !include address/examples/Addresses.json
+
+# XSDs Schemas example
+AddressXSD:
+  schema: !include address/xsds/Address.xsd
+  example: !include address/xsds/examples/Address.xml

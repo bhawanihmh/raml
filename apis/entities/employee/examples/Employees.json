@@ -1,0 +1,47 @@
+{
+	"employees" : [
+		{
+			id: 1,
+			name: Bhawani Singh,
+			salary: 10000,
+			address:  : [
+				{
+				 	id: 1,
+					houseNumber: 100,
+				  streetAddress: "MI Road",
+				  city: "Japiur",
+				  state: "Rajasthan",
+				  zipCode: 123123
+				}, {
+					id: 2,
+					houseNumber: 101,
+				  streetAddress: "MI Road",
+				  city: "Japiur",
+				  state: "Rajasthan",
+				  zipCode: 123123
+				}
+			]
+		}, {
+			id: 2,
+			name: Karanveer Singh,
+			salary: 20000,
+			address:  : [
+				{
+				 	id: 1,
+					houseNumber: 100,
+				  streetAddress: "MI Road",
+				  city: "Japiur",
+				  state: "Rajasthan",
+				  zipCode: 123123
+				}, {
+					id: 2,
+					houseNumber: 101,
+				  streetAddress: "MI Road",
+				  city: "Japiur",
+				  state: "Rajasthan",
+				  zipCode: 123123
+				}
+			]
+		}
+	]
+}

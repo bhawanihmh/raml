@@ -1,0 +1,4 @@
+{
+  "id": "401Unauthorized",
+  "message": "Authentication failed due to invalid authentication credentials."
+}

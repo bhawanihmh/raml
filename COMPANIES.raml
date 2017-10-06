@@ -1,0 +1,19 @@
+#%RAML 1.0
+
+title: COMPANIES
+
+documentation:
+  - title: Introduction
+    content: |
+     My Companies.
+  - title: Copyright
+    content: |
+     Copyright (C) My Company 2017.
+
+version: 1.0
+baseUri: /companies
+mediaType: application/json
+
+types: !include apis/entities/all-entities.raml
+
+/{id}: !include apis/company_details.raml
