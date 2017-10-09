@@ -1,0 +1,19 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"description": "Dlete Employee status.",
+	"properties": {
+		"success": {
+			"type": "boolean",
+			"description": "Status of delete employee request."
+		},
+		"message": {
+			"type": "string",
+			"description": "Message for employee deleted."
+		}
+	}
+	"required": [
+		"success",
+		"message"
+	]
+}

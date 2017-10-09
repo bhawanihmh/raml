@@ -7,5 +7,12 @@ get:
       body:
         application/json:
           type: Employee
+delete:
+  description: Delete employee details.
+  responses:
+    200:
+      body:
+        application/json:
+          type: DeleteEmployee
 
 /addresses: !include employee_addresses.raml

@@ -7,4 +7,45 @@ get:
       body:
         application/json:
           type: Employees
+post:
+  description: Add Employee.
+  body:
+    application/json:
+      type: Employee
+  responses:
+    400:
+      description: Request is not well-formed, syntactically incorrect, or violates schema.
+      body:
+        schema: !include errors/schemas/error-schema.json
+        example: !include errors/examples/client-error-400-example.json
+    401:
+      description: Authentication failed due to invalid authentication credentials.
+      body:
+        schema: !include errors/schemas/error-schema.json
+        example: !include errors/examples/client-error-401-example.json
+    404:
+      description: The specified resource does not exist.
+      body:
+        schema: !include errors/schemas/error-schema.json
+        example: !include errors/examples/client-error-404-example.json
+    422:
+      description: The requested action could not be performed, is semantically incorrect, or failed business validation.
+      body:
+        schema: !include errors/schemas/error-schema.json
+        example: !include errors/examples/client-error-422-example.json
+    500:
+      description: An internal server error has occurred.
+      body:
+        schema: !include errors/schemas/error-schema.json
+        example: !include errors/examples/server-error-500-example.json
+    503:
+      description: Service Unavailable.
+      body:
+        schema: !include errors/schemas/error-schema.json
+        example: !include errors/examples/server-error-503-example.json
+    200:
+      headers: !include headers.raml
+      body:
+        application/json:
+          type: Employee
 /{id}: !include employee_details.raml
