@@ -23,3 +23,12 @@ Installation Steps:
 To generate HTML please run below command:
 
   raml2html COMPANIES.raml > COMPANIES.html
+
+
+
+<dependency>
+   <groupId>org.powermock</groupId>
+   <artifactId>powermock-module-junit4-rule-agent</artifactId>
+   <version>1.7.3</version>
+   <scope>test</scope>
+</dependency>
